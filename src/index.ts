@@ -1,15 +1,10 @@
+import { generate } from "cjp"
 import { Plugin, type PluginConvertFunction } from "submarin-converter"
 
-interface ConvertFunctionOption {
-  prefix: string
-}
-const mainConvertFunction: PluginConvertFunction<ConvertFunctionOption> = ({ input, option }) =>
-  `${option?.prefix ?? ""}${input}`
+const mainConvertFunction: PluginConvertFunction<void> = ({ input }) => generate(input)
 
-const templatePlugin = new Plugin({
+const cjpPlugin = new Plugin({
   convertFunction: [mainConvertFunction],
 })
 
-export { templatePlugin }
-
-export type { ConvertFunctionOption }
+export { cjpPlugin }

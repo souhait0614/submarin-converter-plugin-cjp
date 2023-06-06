@@ -1,36 +1,30 @@
-import { Converter, Plugin, Plugins } from "submarin-converter"
+import { Converter } from "submarin-converter"
 import { expect, test } from "vitest"
-import { templatePlugin } from "../src"
+import { cjpPlugin } from "../src"
 
 test("Basic Usage", async () => {
   const converter = new Converter({
     plugins: {
-      template: templatePlugin,
+      cjp: cjpPlugin,
     } as const,
   })
 
-  const input = "subway"
+  const input = "おはようございます"
 
   const [output, details] = await converter.convert(input, [
     {
-      id: "template",
-      option: {
-        prefix: "hi",
-      },
+      id: "cjp",
     },
   ] as const)
 
-  const expectedOutput = "hisubway"
+  const expectedOutput = "おはよラございまず"
   const expectedDetails: typeof details = [
     {
-      id: "template",
+      id: "cjp",
       ok: true,
-      output: "hisubway",
+      output: "おはよラございまず",
       args: {
-        input: "subway",
-        option: {
-          prefix: "hi",
-        },
+        input: "おはようございます",
       },
       error: [],
     },
