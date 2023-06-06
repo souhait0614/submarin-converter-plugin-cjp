@@ -5,8 +5,8 @@ dependencies:
     specifier: ^2.3.1
     version: 2.3.1
   submarin-converter:
-    specifier: ^0.2.1
-    version: 0.2.1
+    specifier: ^0.2.2
+    version: 0.2.2
 
 devDependencies:
   '@tsconfig/strictest':
@@ -3158,8 +3158,8 @@ packages:
       acorn: 8.8.2
     dev: true
 
-  /submarin-converter@0.2.1:
-    resolution: {integrity: sha512-sYQNhH9R5ylz5eGkKRzLr+KVH3zP02hrvEYav+fSXhJqMJw8m/RB3qPL6IK2mS08GTisiOAjuPLMytpcOo4urA==}
+  /submarin-converter@0.2.2:
+    resolution: {integrity: sha512-+BbZIQYk1cXhiUfon519dBYD7C+Hjy38kB5zG1Nxjd32EF3S6CsK6E9HCV2+Mev6fq5b4iWVqdHWvv94w9J/VA==}
     dependencies:
       type-fest: 3.11.1
     dev: false
