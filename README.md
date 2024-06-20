@@ -3,7 +3,7 @@
 [submarin-converter](https://jsr.io/@submarin-converter/core)用怪レい日本语プラグイン
 
 [![GitHub License](https://img.shields.io/github/license/souhait0614/submarin-converter-plugin-cjp?style=flat-square)](/LICENSE)
-[![JSR Version](https://img.shields.io/jsr/v/%40submarin-converter/plugin-cjp?style=flat-square)](https://jsr.io/@submarin-converter/core)
+[![JSR Version](https://img.shields.io/jsr/v/%40submarin-converter/plugin-cjp?style=flat-square)](https://jsr.io/@submarin-converter/plugin-cjp)
 
 ## Installation/Example/Docs
 
