@@ -5,7 +5,7 @@
  *
  * @example
  * ```typescript
- * import { Converter, type Plugin } from "@submarin-converter/core";
+ * import { Converter } from "@submarin-converter/core";
  * import cjp from "@submarin-converter/plugin-cjp";
  *
  * const converter = new Converter({ cjp });
