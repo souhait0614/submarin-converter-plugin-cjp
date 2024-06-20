@@ -20,7 +20,7 @@ import { generate } from "cjp";
 import type { Plugin } from "@submarin-converter/core";
 import { fallbackFunction } from "./fallbackFunction.ts";
 
-/**  */
+/** submarin-converterのPluginとして設定できるPlugin */
 const plugin: Plugin<undefined> = {
   convertFunctions: [generate, fallbackFunction],
   metaData: {
