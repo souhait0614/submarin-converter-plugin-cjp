@@ -6,7 +6,7 @@
       "jsr:@std/assert@^0.226.0": "jsr:@std/assert@0.226.0",
       "jsr:@std/collections@^0.224.2": "jsr:@std/collections@0.224.2",
       "jsr:@std/internal@^1.0.0": "jsr:@std/internal@1.0.0",
-      "jsr:@submarin-converter/core@^0.0.6": "jsr:@submarin-converter/core@0.0.6",
+      "jsr:@submarin-converter/core@^0.1.1": "jsr:@submarin-converter/core@0.1.1",
       "npm:cjp@^2.3.1": "npm:cjp@2.3.1"
     },
     "jsr": {
@@ -22,8 +22,8 @@
       "@std/internal@1.0.0": {
         "integrity": "ac6a6dfebf838582c4b4f61a6907374e27e05bedb6ce276e0f1608fe84e7cd9a"
       },
-      "@submarin-converter/core@0.0.6": {
-        "integrity": "8a62a02febc272c7983111b741f6df5d28b095292eee8ee955ca0bea87b8c36e",
+      "@submarin-converter/core@0.1.1": {
+        "integrity": "b2529f599b0a1966d64116a269840676906d33c972469af839ef3e0e39de5027",
         "dependencies": [
           "jsr:@std/collections@^0.224.2"
         ]
@@ -40,7 +40,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@^0.226.0",
-      "jsr:@submarin-converter/core@^0.0.6",
+      "jsr:@submarin-converter/core@^0.1.1",
       "npm:cjp@^2.3.1"
     ]
   }
