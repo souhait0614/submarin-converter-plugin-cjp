@@ -9,10 +9,17 @@
 
 see <https://jsr.io/@submarin-converter/plugin-cjp>
 
+## Dependencies
+
+- [cjp.js](https://github.com/Submarinonline/cjp.js)
+  - 通常はこちらを使用します
+- <https://api.souhait.me>
+  - cjp.jsでの変換が失敗した際に使用します
+
 ## Development
 
 ```shell
 git clone https://github.com/souhait0614/submarin-converter-plugin-cjp.git
 cd submarin-converter-plugin-cjp
-deno test
+deno test --allow-net
 ```
