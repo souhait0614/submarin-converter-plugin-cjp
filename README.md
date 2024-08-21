@@ -19,5 +19,5 @@ see <https://jsr.io/@submarin-converter/plugin-cjp>
 ```shell
 git clone https://github.com/souhait0614/submarin-converter-plugin-cjp.git
 cd submarin-converter-plugin-cjp
-deno test --allow-net
+deno test
 ```
