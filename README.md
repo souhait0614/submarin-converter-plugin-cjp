@@ -13,8 +13,6 @@ see <https://jsr.io/@submarin-converter/plugin-cjp>
 
 - [cjp.js](https://github.com/Submarinonline/cjp.js)
   - 通常はこちらを使用します
-- <https://api.souhait.me>
-  - cjp.jsでの変換が失敗した際に使用します
 
 ## Development
 

@@ -17,26 +17,17 @@
  */
 
 import type { Plugin } from "@submarin-converter/core";
+import { metaData } from "./constants.ts";
 
 const dynamicGenerate = async (text: string) => {
   const { generate } = await import("cjp");
   return generate(text);
 };
-const dynamicFallbackFunction = async (text: string) => {
-  const { fallbackFunction } = await import("./fallbackFunction.ts");
-  return fallbackFunction(text);
-};
 
 /** submarin-converterのPluginとして設定できるPlugin */
 const plugin: Plugin<undefined> = {
-  convertFunctions: [dynamicGenerate, dynamicFallbackFunction],
-  metaData: {
-    displayName: "怪レい日本语",
-    description: "日本語を怪レい日本语に変換します",
-    homepage: "https://github.com/Submarinonline/cjp.js",
-    repository: "https://github.com/souhait0614/submarin-converter-plugin-cjp",
-    author: "すえ",
-  },
+  convertFunctions: [dynamicGenerate],
+  metaData,
 };
 
 export default plugin;
