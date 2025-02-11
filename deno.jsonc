@@ -1,6 +1,6 @@
 {
   "name": "@submarin-converter/plugin-cjp",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "exports": { ".": "./src/index.ts", "./dynamic": "./src/dynamic.ts" },
   "imports": {
     "@std/assert": "jsr:@std/assert@^1.0.11",
